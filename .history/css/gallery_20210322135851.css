@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.banner {
+    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    padding: 0em 0 4em;
+    height: 100%;
+    width: 72vw;
+}
+
+#nav {
+    display: flex;
+    background-color: rgb(247, 247, 241);
+  
+    height: 15vh;
+}
+
+.item1 {
+    color: rgb(22, 22, 18);
+    font-family: monserrat;
+    font-size: 3em;
+}
+
+.item2 {
+    color: rgb(26, 26, 20);
+    font-family: monserrat;
+    font-size: 3em;
+}
+
+.item3 {
+    display: flex;
+    list-style: none;
+}
+
+.item3 li a {
+    text-decoration: none;
+    padding: 1vw;
+}
+
+.li {
+    padding: 10px;
+}
+
+
+/*.............Grid..........*/
+
+#grilla {
+    max-width: 100vh;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows:  ;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/* .sec1 {
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  
+   
+    max-height: 20vh;
+}
+
+.sec2 {
+  
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  
+    max-height: 25vh;
+}
+
+.sec3 {
+   
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    max-height: 25vh;
+} */
+main {
+    display: grid;
+    grid-template-columns: 25vw 25vw 20vw;
+    grid-template-rows: 20vh 20vh 30vh;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.uno{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-height: 25vh;
+}
+.dos{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-height: 25vh;
+}
+.tres{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:1;
+    grid-row-end: 2;
+    max-height: 25vh;
+}
+.cuatro{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    max-height: 25vh;
+}
+.cinco{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    max-height: 25vh;
+}
+.seis{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:2;
+    grid-row-end: 3;
+    max-height: 25vh;
+}
+.siete{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    max-height: 25vh;
+}
+.ocho{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    max-height: 25vh;
+}
+.nueve{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:3;
+    grid-row-end: 4;
+    max-height: 25vh;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: black;
+}
+
+
+
+
+/*.......................................*/
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

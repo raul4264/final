@@ -1,0 +1,44 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#container{
+	height: 100%;
+	padding: 60px 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.square{
+	background: #e87a24;
+	display: inline-block;
+
+	margin: 0 50px;
+
+}
+
+/* ESTILO HOVER */
+#container:hover .square1{
+	transform: scaleY(1.25);
+	-moz-transform: scaleY(1.25);
+	-webkit-transform: scaleY(1.25);
+}
+
+#container:hover .square2{
+	transform: scaleY(1.5);
+	-moz-transform: scaleY(1.5);
+	-webkit-transform: scaleY(1.5);
+}
+
+#container:hover .square3{
+	transform: scaleY(2);
+	-moz-transform: scaleY(2);
+	-webkit-transform: scaleY(2);
+}

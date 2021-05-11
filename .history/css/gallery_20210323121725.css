@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 ;
+    padding: 0;
+}
+body{
+ 
+
+}
+.banner {
+    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    padding: 0em 0 4em;
+    height: 100%;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+#nav {
+    display: flex;
+    background-color: rgb(247, 247, 241);
+  
+    height: 15vh;
+}
+
+.item1 {
+    color: rgb(22, 22, 18);
+    font-family: monserrat;
+    font-size: 3em;
+}
+
+.item2 {
+    color: rgb(26, 26, 20);
+    font-family: monserrat;
+    font-size: 3em;
+}
+
+.item3 {
+    display: flex;
+    list-style: none;
+}
+
+.item3 li a {
+    text-decoration: none;
+    padding: 1vw;
+}
+
+.li {
+    padding: 10px;
+}
+
+
+/*.............Grid..........*/
+
+#grilla {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:33vw 33vw 33vw;
+    grid-template-rows:auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 25vw 25vw 30vw;
+    grid-template-rows: 20vh 20vh 60vh;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 10px;
+    margin-top: 75px;
+    justify-content: center;
+}
+/*  */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+  }
+  .cards img {
+    margin: 10px;
+    /* border: 3px solid #000; */
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 23vw;
+  }
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: black;
+}
+
+
+
+
+/*.......................................*/
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

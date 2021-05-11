@@ -1,0 +1,18 @@
+body,html{height:100%;margin:0;padding:0;background:#E3DFD2}
+svg{
+  background:url('../images/1.jpg');
+  background-size:cover;
+  width:80vw; height:auto;
+  display:block;
+  margin:30vmin auto;
+}
+text{
+  font-size:10px;
+  transition:font-size .4s ease-out;
+  font-weight:900;
+  font-family:arial;
+}
+svg:hover text{
+  transition:font-size .4s ease-in;
+  font-size: 300px;
+}

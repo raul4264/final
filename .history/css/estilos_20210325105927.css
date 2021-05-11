@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*PRIMER MEDIA
+/*--------------MEDIA @ QUERY...................*/
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: rgb(248, 222, 156) !important;
+        transition: all .8s ease;
+    }
+    #grilla {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+    header {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    main {
+        height: 125vh;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    footer {
+        display: flex;
+        height: 20vh;
+        background-color: black;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        margin-top: 70px;
+    }
+    #nav {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(247, 247, 241);
+        justify-content: space-evenly;
+        height: 15vh;
+        justify-items: center;
+        align-items: center;
+    }
+    .banner {
+        background: url(../images/1.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        padding: 0em 0 4em;
+        height: 43vh;
+    }
+    .item1 {
+        color: rgb(22, 22, 18);
+        font-size: 1.5em;
+        font-weight: bol;
+        padding: 0 10px;
+        margin-left: 200px;
+    }
+    .item2 {
+        color: rgb(26, 26, 20);
+        font-family: monserrat;
+        font-size: 2.5em;
+        font-weight: bolder;
+        padding: 10px 400px;
+        margin-left: -140px;
+    }
+    .item3 {
+        display: flex;
+        list-style: none;
+        padding: 2vh;
+    }
+    .item3 li a {
+        text-decoration: none;
+        padding: 1vw;
+    }
+    .li {
+        padding: 10px;
+    }
+    .welcome {
+        background-color: rgb(248, 222, 156);
+        height: 49vh;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100%;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+    }
+    .welcome h2 {
+        font-size: 3em;
+        margin: 3vw;
+        /* background-color: rgb(197, 197, 214); */
+    }
+    .cards {
+        margin-left: 2vw;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .cards2 {
+        margin-top: 18vh;
+        padding-left: -29vw;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .cards img {
+        margin: 10px;
+        /* border: 3px solid #000; */
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 23vw;
+    }
+    .services {
+        height: 77vh;
+        background-color: darkgoldenrod;
+        display: grid;
+        grid-template-columns: ;
+        grid-template-rows: ;
+        margin-bottom: 10px;
+    }
+   /*....................................*/
+#container{
+	height: 100%;
+	padding: 30px 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.circle{
+	background: #e87a24;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	display: inline-block;
+	height: 80px;
+	margin: 0 50px;
+	width: 80px;
+}
+
+/* ESTILO HOVER */
+#container:hover .circle1{
+	transform: translateY(20px);
+	-moz-transform: translateY(20px);
+	-webkit-transform: translateY(20px);
+}
+
+#container:hover .circle2{
+	transform: translateY(60px);
+	-moz-transform: translateY(60px);
+	-webkit-transform: translateY(60px);
+}
+
+#container:hover .circle3{
+	transform: translateY(100px);
+	-moz-transform: translateY(100px);
+	-webkit-transform: translateY(100px);
+}
+.cubo, .cubo .cara {
+    width: 200px;
+    height: 200px;
+}
+.cubo .cara {
+    position: absolute;
+}
+.cubo {
+    margin: 100px auto;
+}
+}
+
+
+/*..............................................*/
+
+
+/*--------------MEDIA @ QUERY...................*/
+
+@media screen and (min-width:601px) and (max-width:1000px) {
+    body {
+        background-color: rgb(248, 205, 95) !important;
+        transition: all .8s ease;
+    }
+    body {
+        background-color: darkgoldenrod;
+    }
+    #grilla {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+    header {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    main {
+        height: 125vh;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    footer {
+        display: flex;
+        height: 20vh;
+        background-color: black;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        margin-top: 70px;
+    }
+    #nav {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(247, 247, 241);
+        justify-content: space-evenly;
+        height: 15vh;
+        justify-items: center;
+        align-items: center;
+    }
+    .banner {
+        background: url(../images/1.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        padding: 0em 0 4em;
+        height: 43vh;
+    }
+    .item1 {
+        color: rgb(22, 22, 18);
+        font-size: 1.5em;
+        font-weight: bol;
+        padding: 0 10px;
+        margin-left: 200px;
+    }
+    .item2 {
+        color: rgb(26, 26, 20);
+        font-family: monserrat;
+        font-size: 2.5em;
+        font-weight: bolder;
+        padding: 10px 400px;
+        margin-left: -140px;
+    }
+    .item3 {
+        display: flex;
+        list-style: none;
+        padding: 2vh;
+    }
+    .item3 li a {
+        text-decoration: none;
+        padding: 1vw;
+    }
+    .li {
+        padding: 10px;
+    }
+    .welcome {
+        background-color: rgb(248, 205, 95);
+        height: 49vh;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100%;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+    }
+    .welcome h2 {
+        font-size: 3em;
+        margin: 3vw;
+        /* background-color: rgb(197, 197, 214); */
+    }
+    .cards {
+        margin-left: 2vw;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .cards2 {
+        margin-top: 18vh;
+        padding-left: -29vw;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .cards img {
+        margin: 10px;
+        /* border: 3px solid #000; */
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 23vw;
+    }
+    .services {
+        height: 77vh;
+        background-color: darkgoldenrod;
+        display: grid;
+        grid-template-columns: ;
+        grid-template-rows: ;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*..............................................*/
+
+
+/*--------------MEDIA @ QUERY...................*/
+
+@media screen and (min-width:1001px) {
+    body {
+        background-color: rgb(68, 50, 2) !important;
+        transition: all .8s ease;
+    }
+    #grilla {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 33%;
+    }
+    header {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    main {
+        height: 150vh;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    footer {
+        display: flex;
+        height: 20vh;
+        background-color: black;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #nav {
+        display: flex;
+        background-color: rgb(247, 247, 241);
+        justify-content: space-around;
+        height: 15vh;
+    }
+    .banner {
+        background: url(../images/1.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        padding: 0em 0 4em;
+        height: 73vh;
+    }
+    .item1 {
+        color: rgb(22, 22, 18);
+        font-size: 3.5em;
+        font-weight: bol;
+        padding: 10px;
+        margin-left: 20px;
+    }
+    .item2 {
+        color: rgb(26, 26, 20);
+        font-family: monserrat;
+        font-size: 4.5em;
+        font-weight: bolder;
+        padding: 10px;
+        margin-left: -10px;
+    }
+    .item3 {
+        display: flex;
+        list-style: none;
+        padding: 2vh;
+    }
+    .item3 li a {
+        text-decoration: none;
+        padding: 1vw;
+    }
+    .li {
+        padding: 10px;
+    }
+    .welcome {
+        background-color: darkgoldenrod;
+        height: 85vh;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100%;
+        flex-direction: column;
+    }
+    .welcome h2 {
+        font-size: 3.7em;
+        margin: 3vw;
+        /* background-color: rgb(197, 197, 214); */
+    }
+    .cards {
+        margin-left: 2vw;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .cards2 {
+        margin-top: 21vh;
+        padding-left: -29vw;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        max-width: 80%;
+    }
+    .cards img {
+        margin: 10px;
+        /* border: 3px solid #000; */
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 23vw;
+    }
+    .services {
+        height: 101vh;
+        background-color: rgb(82, 60, 4);
+        display: grid;
+        grid-template-columns: ;
+        grid-template-rows: ;
+    }
+}

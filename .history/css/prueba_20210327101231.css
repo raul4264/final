@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: rgb(248, 222, 156) !important;
+        transition: all .8s ease;
+    }
+   
+
+    .item1 {
+        color: rgb(22, 22, 18);
+       
+     
+    }
+    .item2 {
+        color: rgb(26, 26, 20);
+      
+      
+     
+    }
+    .item3 {
+     
+      
+      
+    }
+    #nav {
+   
+    
+  }
+
+
+    a {
+        background: #DDD;
+        color: rgb(134, 111, 6);
+        padding: 2px;
+        border: 1px solid #AAA;
+    }
+    a:hover {
+        background: #FFF;
+        color: #666;
+        padding: 8px 14px;
+        border: 1px solid #888;
+        transition-property: all;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in;
+    }
+    .li {
+        padding: 10px;
+    }
+    
+    footer {
+      
+    }
+    /*.............................................................*/
+
+
+ 
+    
+  svg{
+      background:url('../images/1.jpg');
+      background-size:cover;
+      max-height: 40vh;
+      width:80vw; height:auto;
+      display:block;
+      margin:30vmin auto;
+    }
+    
+    text {
+        font-size: 10px;
+        transition: font-size .4s ease-out;
+        font-weight: 900;
+        font-family: arial;
+    }
+    svg:hover text {
+        transition: font-size .4s ease-in;
+        font-size: 300px;
+    }
+}
+
+/*-----------------------------------------------*/
+
+
